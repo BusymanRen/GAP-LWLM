@@ -1,7 +1,7 @@
 ```markdown
 # GAP-LWLM
 
-Official implementation of the three-stage training pipeline for GAP-LWLM (Geometry-Aware Prompt Tuning for Cross-Scene Localization)[cite: 6].
+Official implementation of the three-stage training pipeline for GAP-LWLM (Geometry-Aware Prompt Tuning for Cross-Scene Localization).
 
 ---
 
