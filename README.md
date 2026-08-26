@@ -62,7 +62,7 @@ python ./train_scene.py --task SingleBSLoc --model_path ./tune_model/ --is_froze
 **Stage 3: Prompt Tuning**
 
 ```bash
-python ./train_scene.py --task prompt_loc --is_frozen 0 --is_load 0 --depth 4 --load_pretrained_mdl_path ./pretrained_model/testmix/testepoch=01-01.ckpt --model_path ./prompt_model/
+python ./train_scene.py --task prompt_loc --is_frozen 0 --is_load 0 --depth 4 --load_pretrained_mdl_path ./tune_model/testepoch=01.ckpt --model_path ./prompt_model/
 
 ```
 
